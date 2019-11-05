@@ -14,3 +14,8 @@
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_mermaid.mk
 
+COMMON_LUNCH_CHOICES += \
+    aosp_i3213-eng \
+    aosp_i3213-userdebug \
+    aosp_i4213-eng \
+    aosp_i4213-userdebug
